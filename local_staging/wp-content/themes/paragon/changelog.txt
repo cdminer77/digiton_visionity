@@ -1,0 +1,4 @@
+Version: 1.1.0
+	Skin 'default' is updated to the version 1.1.
+
+Release: v.1.0.0

@@ -1,0 +1,133 @@
+/* About Theme */
+.paragon_about {
+	margin: 2em 0 0 2em;
+}
+
+/* Theme Options */
+.paragon_options_item[class*="column-"] {
+	padding: 1.25em 0 1.25em 2em;
+}
+.paragon_list_choice_item {
+	margin-left: 20px;
+	margin-right: 0;
+}
+.paragon_options_header {
+	margin: 1em 0 0 20px;
+}
+.paragon_options_title {
+	float: right;
+}
+.paragon_options_item_info {
+	border-right: 0 !important;
+}
+.paragon_options_item_title {
+	padding-left: 30px;
+	padding-right: 0;
+}
+.paragon_options_item_info .paragon_options_item_title,
+[class*="paragon_column-"] .paragon_options_item_title,
+[class*="paragon_column-"] .paragon_options_item_data {
+	text-align: right;
+}
+.paragon_range_slider_value {
+	margin-left: 10px !important;
+	margin-right: 0 !important;
+}
+.paragon_options_buttons {
+	float: left;
+	text-align: left;
+}
+.paragon_options .paragon_options_button:before {
+	margin: -1px 0 0 0.3em;
+}
+div.paragon_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active {
+	border-right: 3px solid #11a0d2;
+	border-left: 0;
+}
+div.paragon_tabs_vertical > ul.ui-tabs-nav > li.ui-state-active > a.ui-tabs-anchor {
+	right: 1px;
+	left: auto;
+	padding-right: 10px;
+	padding-left: 13px;
+}
+div.paragon_tabs > ul.ui-tabs-nav > li > a > i[class*="dashicons-"],
+div.paragon_tabs > ul.ui-tabs-nav > li > a > i[class*="icon-"] {
+	margin: 0 0 0 0.5em;
+}
+div.paragon_tabs_vertical > ul.ui-tabs-nav > li.paragon_tabs_title_super > a.ui-tabs-anchor {
+	padding-left: 2em;
+	padding-right: 13px;
+}
+div.paragon_tabs_vertical > ul.ui-tabs-nav > li.paragon_tabs_title_super:after {
+	content: '\e858';
+	left: 12px;
+	right: auto;
+}
+div.paragon_tabs_vertical > ul.ui-tabs-nav > li.paragon_tabs_title_sub > a.ui-tabs-anchor,
+div.paragon_tabs_vertical > ul.ui-tabs-nav > li.paragon_tabs_title_sub.ui-state-active > a.ui-tabs-anchor {
+	padding: 0.6em 2.95em 0.6em 0.6em;
+}
+.paragon_range_slider_units {
+	margin-right: -8px;
+	margin-left: 0;
+}
+.paragon_options_item_radio .paragon_options_item_holder,
+.paragon_options input[type="radio"] + .paragon_options_item_holder {
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+.paragon_options_item_radio .paragon_options_item_label {
+	margin: 0 0 0 1em;
+}
+.paragon_checklist.paragon_sortable .paragon_checklist_item_label {
+	padding: 6px 6px 6px 2.5em;
+}
+.paragon_options_item_checkbox input[type="checkbox"],
+.paragon_options_item_checklist input[type="checkbox"] {
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+.paragon_options_item_checkbox input[type="checkbox"]:checked:before,
+.paragon_options_item_checklist input[type="checkbox"]:checked:before {
+	right: 50%;
+	left: auto;
+	-webkit-transform: translate(50%, -50%);
+	-ms-transform: translate(50%, -50%);
+	transform: translate(50%, -50%);
+}
+.paragon_checklist.paragon_sortable .paragon_checklist_item_label:after {
+	left: 12px;
+	right: auto;
+}
+.paragon_scheme_editor_scheme {
+	padding-left: 105px;
+	padding-right: 0;
+}
+.paragon_scheme_editor_controls {
+	left: 0;
+	right: auto;
+}
+.paragon_scheme_editor_control {
+	margin-right: 2px;
+	margin-left: 0;
+}
+.paragon_options_inherit_off .paragon_options_inherit_lock {
+	left: 4px;
+	right: auto;
+}
+.paragon_options_inherit_lock {
+	left: 2px;
+	right: auto;
+}
+.paragon_options_item_image .paragon_media_selector,
+.paragon_options_item_media .paragon_media_selector,
+.paragon_options_item_audio .paragon_media_selector,
+.paragon_options_item_video .paragon_media_selector {
+	float: none !important;
+}
+
+@media (min-width: 601px) {
+	.paragon_options_header.sticky {
+		margin: 0 -20px 0 0;
+	}
+}

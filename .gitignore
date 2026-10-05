@@ -1,0 +1,28 @@
+# Huge archive files (>100MB exceeds GitHub limit)
+*.daf
+*.tar.gz
+
+# Duplicator temporary installer files
+dup-installer/
+**/dup-installer/
+dup-installer-bootlog*.txt
+**/dup-installer-bootlog*.txt
+
+# Temporary / intermediate test files
+step1_rendered.html
+step2.html
+step3.html
+step3_after_scan.html
+local_installer_view.html
+test_download.png
+
+# Python / Environment
+__pycache__/
+*.pyc
+.env
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
